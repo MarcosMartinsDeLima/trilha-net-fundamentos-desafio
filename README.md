@@ -2,7 +2,13 @@
 www.dio.me
 
 ## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+Para este desafio, precisei usar meus conhecimentos adquiridos no módulo de fundamentos, da trilha .NET da DIO.
+
+## Oque eu realizei/fiz:
+Completei o desafio implementando todas as funcionalidades que faltavam além de implementar algumas melhorias como:
+-validação de caracteres da placa(toda placa deve ter 7 caracteres exatos)
+-validação das horas na função de remover,é esperado um número inteiro e eu fiz uma validação caso venha uma letra ou outro caractere, assim garantindo que o sistema não quebre
+-fiz com que as menssagems de retorno fiquem mais visiveis alterando as cores, verde para sucesso e vermelho para fracaso!
 
 ## Contexto
 Você foi contratado para construir um sistema para um estacionamento, que será usado para gerenciar os veículos estacionados e realizar suas operações, como por exemplo adicionar um veículo, remover um veículo (e exibir o valor cobrado durante o período) e listar os veículos.
