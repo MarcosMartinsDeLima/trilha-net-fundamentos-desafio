@@ -32,7 +32,13 @@ while (exibirMenu)
     switch (Console.ReadLine())
     {
         case "1":
+            try{
             es.AdicionarVeiculo();
+            }catch(Exception ex){
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"Siga o padrão de placas do Brasil {ex.Message}");
+                Console.ResetColor();
+            }
             break;
 
         case "2":
@@ -55,5 +61,5 @@ while (exibirMenu)
     Console.WriteLine("Pressione uma tecla para continuar");
     Console.ReadLine();
 }
-
-Console.WriteLine("O programa se encerrou");
+Console.ForegroundColor = ConsoleColor.Blue;
+Console.WriteLine("O programa se encerrou,Agradecemos a preferencia!");
